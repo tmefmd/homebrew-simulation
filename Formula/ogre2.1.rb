@@ -47,8 +47,8 @@ class Ogre21 < Formula
   
       # fix for m1 arch
     patch do
-      url "https://github.com/scpeters/ogre/commit/c39b6df49618773357da0b54437f351b57168d12.patch?full_index=1"
-      sha256 "fa8dc20d5978d1ff1402a4df890a6fa0ca1fec6ec73f00154f7484820516b071"
+      url "https://github.com/OGRECave/ogre-next/commit/ff013388249c4f51537e09f9f84b51e51d77cf10"
+      sha256 "ff013388249c4f51537e09f9f84b51e51d77cf10"
     end
 
 

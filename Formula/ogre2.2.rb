@@ -31,10 +31,16 @@ class Ogre22 < Formula
   end
 
   # patch do
-  # fix GL3+ compilation with Xcode 10
+  # # fix GL3+ compilation with Xcode 10
   #  url "https://github.com/OGRECave/ogre-next/commit/b00a880a4aea5492615ce8e3363e81631a53bb5c.patch?full_index=1"
   #  sha256 "8fe5beab9e50dfe1f0164e8dbffd20a79f5e9afe79802ab0ce29d8d83e4e0fe8"
   # end
+
+  # fix for m1 arch
+  patch do
+    url "https://github.com/scpeters/ogre/commit/c39b6df49618773357da0b54437f351b57168d12.patch?full_index=1"
+    sha256 "fa8dc20d5978d1ff1402a4df890a6fa0ca1fec6ec73f00154f7484820516b071"
+  end
 
   def install
     cmake_args = [

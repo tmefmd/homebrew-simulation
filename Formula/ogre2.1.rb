@@ -44,11 +44,18 @@ class Ogre21 < Formula
       url "https://github.com/ignition-forks/ogre-2.1-release/compare/b4c4fa785c03c2d4ba2a1d28d94394c7ca000358..81632330e3ab041345c7fa1075022cf6af30c658.diff"
       sha256 "9a855a9e60bc81874e3d1501094e1fcc46d296ac964ca8985ddeb1035fe05cd2"
     end
-  
-      # fix for m1 arch
+
+    # fix for m1 arch -- adapted from OGRECave/ogre-next@ff01338
     patch do
-      url "https://github.com/OGRECave/ogre-next/commit/ff013388249c4f51537e09f9f84b51e51d77cf10"
-      sha256 "ff013388249c4f51537e09f9f84b51e51d77cf10"
+      url "https://github.com/OGRECave/ogre-next/commit/ff013388249c4f51537e09f9f84b51e51d77cf10.patch?full_index=1"
+      sha256 "1f0752700e3c1679d2f75eb5d0b773c10a0249e6fae657b388df9b321e29b8ce"
+    end
+  
+
+    # fix for m1 arch -- adapted from OGRECave/ogre-next@23d8261
+    patch do
+      url "https://github.com/OGRECave/ogre-next/commit/23d82616a785f6aa26f58d5bf38a7114e2c00f88.patch?full_index=1"
+      sha256 "cf0a5d72a1271ee1c1606ac6cc21ef39dc708a3adce5b9838a2a037dc98466c6"
     end
 
 

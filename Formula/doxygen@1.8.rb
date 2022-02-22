@@ -28,4 +28,13 @@ class DoxygenAT18 < Formula
       mkdir "build" do
         system "cmake", "..", *std_cmake_args
         system "make"
+      end
+      bin.install Dir["build/bin/*"]
+      man1.install Dir["doc/*.1"]
+    end
+    test do
+      system "#{bin}/doxygen", "-g"
+      system "#{bin}/doxygen", "Doxyfile"
+    end
+  end
   

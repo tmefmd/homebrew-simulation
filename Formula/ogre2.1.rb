@@ -45,11 +45,11 @@ class Ogre21 < Formula
       sha256 "9a855a9e60bc81874e3d1501094e1fcc46d296ac964ca8985ddeb1035fe05cd2"
     end
 
-    # fix for m1 arch -- adapted from OGRECave/ogre-next@ff01338
-    patch do
-      url "https://github.com/OGRECave/ogre-next/commit/ff013388249c4f51537e09f9f84b51e51d77cf10.patch?full_index=1"
-      sha256 "1f0752700e3c1679d2f75eb5d0b773c10a0249e6fae657b388df9b321e29b8ce"
-    end
+    # # fix for m1 arch -- adapted from OGRECave/ogre-next@ff01338
+    # patch do
+    #   url "https://github.com/OGRECave/ogre-next/commit/ff013388249c4f51537e09f9f84b51e51d77cf10.patch?full_index=1"
+    #   sha256 "1f0752700e3c1679d2f75eb5d0b773c10a0249e6fae657b388df9b321e29b8ce"
+    # end
   
 
     # fix for m1 arch -- adapted from OGRECave/ogre-next@23d8261

@@ -1,4 +1,4 @@
-class Doxygen < Formula
+class DoxygenOld < Formula
     desc "Generate documentation for several programming languages"
     homepage "https://www.doxygen.org/"
     url "https://doxygen.nl/files/doxygen-1.9.2.src.tar.gz"

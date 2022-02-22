@@ -25,7 +25,7 @@ class IgnitionEdifice < Formula
   depends_on "ignition-fuel-tools6"
   depends_on "ignition-gazebo5"
   depends_on "ignition-gui5"
-  depends_on "ignition-launch4"
+  # depends_on "ignition-launch4"
   depends_on "ignition-math6"
   depends_on "ignition-msgs7"
   depends_on "ignition-physics4"

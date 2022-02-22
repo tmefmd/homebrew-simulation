@@ -36,11 +36,18 @@ class Ogre22 < Formula
   #  sha256 "8fe5beab9e50dfe1f0164e8dbffd20a79f5e9afe79802ab0ce29d8d83e4e0fe8"
   # end
 
-  # fix for m1 arch
-  patch do
-    url "https://github.com/scpeters/ogre/commit/c39b6df49618773357da0b54437f351b57168d12.patch?full_index=1"
-    sha256 "fa8dc20d5978d1ff1402a4df890a6fa0ca1fec6ec73f00154f7484820516b071"
-  end
+    # fix for m1 arch -- adapted from OGRECave/ogre-next@ff01338
+    patch do
+      url "https://github.com/OGRECave/ogre-next/commit/ff013388249c4f51537e09f9f84b51e51d77cf10.patch?full_index=1"
+      sha256 "624fae3cc71f4b21804e096bbe0ef1a536d901be4366d38d5acc0f12fb47bb93"
+    end
+  
+
+    # fix for m1 arch -- adapted from OGRECave/ogre-next@23d8261
+    patch do
+      url "https://github.com/OGRECave/ogre-next/commit/23d82616a785f6aa26f58d5bf38a7114e2c00f88.patch?full_index=1"
+      sha256 "ade27e55e7be5510f5eeb95f17c9ba90e61575ad610cc35f24179d061b1756a1"
+    end
 
   def install
     cmake_args = [

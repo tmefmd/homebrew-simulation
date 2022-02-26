@@ -2,7 +2,8 @@ class Gazebo11 < Formula
   desc "Gazebo robot simulator"
   homepage "https://gazebosim.org"
   url "https://osrf-distributions.s3.amazonaws.com/gazebo/releases/gazebo-11.10.1.tar.bz2"
-  sha256 "349cbd73965f6e71784283f9b9b69f2cd43162c613642fd388d3f648f9caccf2"
+  # sha256 "349cbd73965f6e71784283f9b9b69f2cd43162c613642fd388d3f648f9caccf2"
+  sha256 "9b1bcf5c1d48d10320e4269441bc6bf0a100c8f9879f542ac42f39673120b58a"
   license "Apache-2.0"
   revision 2
 

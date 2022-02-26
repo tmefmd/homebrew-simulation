@@ -3,7 +3,7 @@ class Gazebo11 < Formula
   homepage "https://gazebosim.org"
   url "https://osrf-distributions.s3.amazonaws.com/gazebo/releases/gazebo-11.10.1.tar.bz2"
   # sha256 "349cbd73965f6e71784283f9b9b69f2cd43162c613642fd388d3f648f9caccf2"
-  sha256 "41840f09d54d268189bbeec1b4f7d9b36afc3350344dfd9b51fda0775380d775"
+  sha256 "0151fa6efa6fdc9c89628eedfd78e34c8586d7140dca1ea60fd1db36e794acc2"
   license "Apache-2.0"
   revision 2
 
@@ -12,7 +12,7 @@ class Gazebo11 < Formula
   bottle do
     root_url "https://osrf-distributions.s3.amazonaws.com/bottles-simulation"
     sha256 big_sur:  "a7b7aab1bf649ded8f0d181ca85e409632543785cacf8e995ff4e6b8b024848f"
-    sha256 catalina: "0151fa6efa6fdc9c89628eedfd78e34c8586d7140dca1ea60fd1db36e794acc2"
+    sha256 catalina: "341a517561e4c49ef62468a52b13217c928509b7dbbd94fa303fe62d04c4dd87"
   end
 
   depends_on "cmake" => :build

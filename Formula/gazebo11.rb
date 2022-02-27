@@ -3,7 +3,7 @@ class Gazebo11 < Formula
   homepage "https://gazebosim.org"
   url "https://osrf-distributions.s3.amazonaws.com/gazebo/releases/gazebo-11.10.1.tar.bz2"
   # sha256 "349cbd73965f6e71784283f9b9b69f2cd43162c613642fd388d3f648f9caccf2"
-  sha256 "d1c17708c246424303dcf9d5daaf93583cb8d802bb08caf6b27212fdd656a1b2"
+  sha256 "c93ece74749fb8bf8aa9a698d163bccdd8885408bfa5f5767fc5b08128cba3e3"
   license "Apache-2.0"
   revision 2
 

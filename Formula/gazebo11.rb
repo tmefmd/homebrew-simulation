@@ -4,7 +4,7 @@ class Gazebo11 < Formula
   url "https://osrf-distributions.s3.amazonaws.com/gazebo/releases/gazebo-11.10.1.tar.bz2"
   # sha256 "349cbd73965f6e71784283f9b9b69f2cd43162c613642fd388d3f648f9caccf2" # Original
   # sha256 "fbcb04b5d134daf749dbd8eeec9de6ec968c43ab1e60cad372bd9e552c2fa6e2" # Macbook pro m1
-  sha256 "ac5423218275eca52ab926f04b8b51721764274dcaa05ca822097e89dba19961" # Macbook air m1
+  sha256 "fbcb04b5d134daf749dbd8eeec9de6ec968c43ab1e60cad372bd9e552c2fa6e2" # Macbook air m1
   license "Apache-2.0"
   revision 2
 
